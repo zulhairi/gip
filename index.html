@@ -82,8 +82,34 @@
 			  audio.play();
 			});
 		  </script>
-		  
-		
+
+	<style>
+		#fh5co-event {
+			margin-top: 15px !important;
+			padding-top: 0 !important;
+		}
+
+		iframe {
+			display: block;
+			margin: 10px auto;
+		}
+
+		.event-wrap {
+			margin-top: 20px;
+		}
+
+		@media (max-width: 767px) {
+			#fh5co-header {
+				background-image: url('images/bg.jpg'); /* Ensure the background image is set */
+				background-size: cover !important; /* Make sure the image fills the container */
+				background-position: center center !important; /* Center the image */
+				background-repeat: no-repeat !important; /* Prevent image repeat */
+				height: 100%; /* Make sure the header takes full screen height */
+			}
+		}
+
+	</style>
+
 	<div class="fh5co-loader"></div>
 	
 	<div id="page">
@@ -102,84 +128,96 @@
 		</div>
 	</nav>
 
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/bg.jpg);" data-stellar-background-ratio="0.5">
+	<header id="fh5co-header" class="fh5co-cover" role="banner"
+		style="background-image: url('images/bg.jpg'); background-size: cover; background-position: center center;"
+		data-stellar-background-ratio="0.5">
+		
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center">
+				<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
 							<h1>Zulfadhli &amp; Wane</h1>
 							<br><br>
-							<img src="images/gip.jpeg" alt="Zulfadhli + Wane" style="display: block; margin: 0 auto; width: 100%; height: auto;">
-
+							<img src="images/gip.jpeg" alt="Zulfadhli + Wane"
+								style="display: block; margin: 0 auto; width: 100%; height: auto;">
 
 							<div class="flipTimebox">
 								<div class="clock clock-fix"></div>
-							  </div>
-							
+							</div>
+
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</header>
-	<style>
-
-	#fh5co-event {
-		margin-top: 15px !important;
-		padding-top: 0 !important;
-	
-		
-	}
-
-	.text-center {
-		padding-bottom: 10px !important;
-		margin-bottom: 10px !important;
-	}
 
 	
-	</style>
+		<style>
+			#fh5co-event {
+			  margin-top: 15px !important;
+			  padding-top: 0 !important;
+			}
+		  
+			.text-center {
+			  padding-bottom: 10px !important;
+			  margin-bottom: 10px !important;
+			}
+		  
+			.event-wrap {
+			  margin-top: 20px;
+			}
+		  </style>
+	  
 
-	<div class="row">
-		<div id="fh5co-event" class="col-md-8 col-md-offset-2 text-center" style="margin-top: 1px;">
+		  <div class="container">
+			<div class="row justify-content-center">
+				<div id="fh5co-event" class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
 
-			<!-- Waze & Google Maps Buttons -->
-			<div class="text-center" style="margin-top: 0px;">
-				<a href="https://waze.com/ul?ll=5.043593,100.986160&navigate=yes" target="_blank" class="btn btn-primary" style="margin-right: 10px;">
+		  
+				<!-- Waze & Google Maps Buttons -->
+				<div class="text-center" style="margin-top: 0px;">
+				  <a href="https://waze.com/ul?ll=5.043593,100.986160&navigate=yes" target="_blank" class="btn btn-primary" style="margin-right: 10px;">
 					<i class="icon-location-pin"></i> Buka di Waze
-				</a>
-				<a href="https://www.google.com/maps/search/?api=1&query=5.043593,100.986160" target="_blank" class="btn btn-success">
+				  </a>
+				  <a href="https://www.google.com/maps/search/?api=1&query=5.043593,100.986160" target="_blank" class="btn btn-success">
 					<i class="icon-map"></i> Buka di Google Maps
-				</a>
-			</div>
-
-			<div class="event-wrap animate-box text-center">
-				<h3>Kampung Luat</h3>
-				<div class="event-col">
+				  </a>
+				</div>
+		  
+				<div class="event-wrap animate-box text-center">
+				  <h3>Kampung Luat</h3>
+		  
+				  <div class="event-col">
 					<i class="icon-calendar"></i>
 					<span>19 Julai 2025 | 23 Muharram 1460H</span>
-				</div>
-	
-				<div class="event-col">
+				  </div>
+		  
+				  <div class="event-col">
 					<i class="icon-clock"></i>
 					<span>11:00 AM - 4:00 PM</span>
-				</div>
-	
-				<!-- Address -->
-				<div style="margin-top: 10px;">
+				  </div>
+		  
+				  <!-- Address -->
+				  <div style="margin-top: 10px;">
 					<p><strong>Alamat:</strong><br>
-					D23-1, 60E, 3114, Kampung Luat,<br>
-					33400 Lenggong, Hulu Perak, Perak</p>
+					  D23-1, 60E, 3114, Kampung Luat,<br>
+					  33400 Lenggong, Hulu Perak, Perak</p>
+				  </div>
+		  
+				  <!-- Google Map -->
+				  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d196.32508736544844!2d100.98616012293706!3d5.0435925795635965!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31b561000261e75f%3A0x7a27dac1a9704dd!2sRazman%20Shehamy!5e1!3m2!1sen!2smy!4v1746675509741!5m2!1sen!2smy"
+					width="100%" height="200" style="border:0; margin-top:10px;" allowfullscreen="" loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"></iframe>
 				</div>
-	
-				<!-- Google Map -->
-				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d196.32508736544844!2d100.98616012293706!3d5.0435925795635965!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31b561000261e75f%3A0x7a27dac1a9704dd!2sRazman%20Shehamy!5e1!3m2!1sen!2smy!4v1746675509741!5m2!1sen!2smy" width="100%" height="200" style="border:0; margin-top:10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		  
+			  </div>
 			</div>
-		</div>
-	</div>
+		  </div>
 	
-
+	
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
     <!-- clock -->
