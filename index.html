@@ -71,7 +71,7 @@
 
 	</head>
 	<body>
-	<audio id="bg-music" autoplay loop>
+		<audio id="bg-music" autoplay loop>
 			<source src="images/gip.mp3" type="audio/mpeg">
 		  </audio>
 		  
@@ -82,6 +82,7 @@
 			  audio.play();
 			});
 		  </script>
+		  
 		
 	<div class="fh5co-loader"></div>
 	
@@ -123,11 +124,28 @@
 			</div>
 		</div>
 	</header>
+	<style>
+
+	#fh5co-event {
+		margin-top: 15px !important;
+		padding-top: 0 !important;
+	
+		
+	}
+
+	.text-center {
+		padding-bottom: 10px !important;
+		margin-bottom: 10px !important;
+	}
+
+	
+	</style>
 
 	<div class="row">
-		<div class="col-md-12">
+		<div id="fh5co-event" class="col-md-8 col-md-offset-2 text-center" style="margin-top: 1px;">
+
 			<!-- Waze & Google Maps Buttons -->
-			<div class="text-center" style="margin-top: 15px;">
+			<div class="text-center" style="margin-top: 0px;">
 				<a href="https://waze.com/ul?ll=5.043593,100.986160&navigate=yes" target="_blank" class="btn btn-primary" style="margin-right: 10px;">
 					<i class="icon-location-pin"></i> Buka di Waze
 				</a>
@@ -149,7 +167,7 @@
 				</div>
 	
 				<!-- Address -->
-				<div style="margin-top: 15px;">
+				<div style="margin-top: 10px;">
 					<p><strong>Alamat:</strong><br>
 					D23-1, 60E, 3114, Kampung Luat,<br>
 					33400 Lenggong, Hulu Perak, Perak</p>
