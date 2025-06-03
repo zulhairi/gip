@@ -498,7 +498,7 @@ document.addEventListener('click', function () {
 <script>
 	document.addEventListener('DOMContentLoaded', () => {
 	  // Set your event date: YYYY-MM-DD HH:MM:SS
-	  const weddingDate = new Date("2025-06-28T11:00:00").getTime() / 1000; // Adjust to your event time
+	  const weddingDate = new Date("2025-07-19T11:00:00").getTime() / 1000; // Adjust to your event time
   
 	  new FlipDown(weddingDate)
 		.start()
@@ -524,14 +524,7 @@ document.addEventListener('click', function () {
             }
         });
     
-        // Initialize FlipClock countdown
-        var currentDate = new Date('June 03, 2025 13:20:00 +0800'); // Current date and time
-        var weddingDate = new Date('July 19, 2025 11:00:00 +0800'); // Wedding date and time
-        var clock = $('.countdown-timer .clock').FlipClock((weddingDate - currentDate) / 1000, {
-            clockFace: 'DailyCounter',
-            countdown: true,
-            showSeconds: true
-        });
+     
     });
     </script>
 
