@@ -70,7 +70,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    color: #6b5b95;
+	color: #6b5b95;
     z-index: 1;
 }
 
@@ -121,19 +121,19 @@ body {
 }
 
 .countdown-timer {
-    margin: 20px auto;
+	margin: 20px auto;
     max-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.flipdown {
+.countdown-timer .clock {
     display: inline-block;
     margin: 0 auto;
-    transform: translateX(-50%);
-    left: 50%;
-    position: relative;
+    width: auto;
+}
+
+.flipTimebox .clock {
+    margin: 20px auto;
+    max-width: 100%;
 }
 
 .section {
@@ -292,10 +292,11 @@ body {
         font-size: 0.1rem;
         padding: 2px 7px;
     }
-    .flipdown {
-        transform: scale(0.65) translateX(-50%);
-        left: 50%;
-        position: relative;
+    .countdown-timer .clock {
+        transform: scale(0.65);
+    }
+    .flipTimebox .clock {
+        transform: scale(0.65);
     }
     .section {
         padding: 30px 0;
